@@ -1,0 +1,23 @@
+Esta ruta recibe datos y espera que el cliente enví e un JSON con un campo
+(mensaje)
+Extrae ese mensaje del cuerpo de la solicitud
+Devuelve un objeto con dos claves :1 estado confirmacion de que el reporte 
+fue recibido.
+
+
+En una aplicación comunitaria:
+Reportes ciudadanos: los vecinos podrian enviar mensajes sobre problemas
+en su barrio (Ejemplo: a calle esta dañada, hay fallas electricas)
+
+Comunicación directa: la comunidad tendría un canal para enviar infor-
+mación al servidor sin necesidad deabrir la base de datos manualmente.
+
+Registro automático: cada reporte quedaría guardado y podría ser cons-
+ultado después con otra ruta GET.
+
+En resumen la ruta POST/ reporte es un punto de entrada para recibir 
+inforrmaion desde los usuarios y devolver una confirmación. Es ideal 
+para aplicaciones comunitarias donde se necesitan reportes rapidos y
+organizados.
+
+ 

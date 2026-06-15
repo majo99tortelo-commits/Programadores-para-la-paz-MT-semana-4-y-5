@@ -1,0 +1,13 @@
+Prueba 1 con http://localhost:3000:
+Cuando ingreso a http://localhost:3000 la respuesta del navegador es: 
+Servidor activo
+
+
+Prueba 2 con http://localhost:3000/saludo:
+Cuando ingreso a realizar la prueba la respuesta es:
+Hola comunidad.
+
+Prueba 3 con http://localhost:3000/mensaje/juan: 
+Cuando ingreso a realizar la prueba, la respuesta es:
+Hola Juan
+ 
